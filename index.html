@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="image/png" rel="icon" href="img/logo.png">
+  <link rel="stylesheet" href="style/bootstrap.min.css">
+  <link rel="stylesheet" href="style/ARC-style.css">
+  <link rel="stylesheet" href="style/style_light.css" id="theme-link">
+  <title>Пиццерия</title>
+</head>
+
+<body class="main-color">
+  <div>
+    <button class="btn btn-color theme-btn theme-button p-1" id="theme-button">
+      <div class="icon-theme"></div>
+    </button>
+  </div>
+
+  <div class="container-fluid white">
+    <div class="row justify-content-center px-sm-4 hdr-color">
+
+      <div class="col h-header p-4 d-none d-md-block text-center">
+        <h3><span>ДЛЯ ЗАКАЗА ПИЦЦЫ СУШИ РОЛЛОВ ПОЗВОНИТЕ НАМ!</span></h3>
+      </div>
+
+      <div class="col p-4 d-none d-md-block text-center">
+        <h3><span>+ 7 (909) 005-34-54</span></h3>
+      </div>
+
+      <div class="col py-3 d-block d-md-none text-center">
+        <h3><span>ДЛЯ ЗАКАЗА ПИЦЦЫ и СУШИ РОЛЛОВ ПОЗВОНИТЕ НАМ!</span></h3>
+        <a href="tel:+79090053454" class="btn-color">
+          <h3><span>+79090053454</span></h3>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="img-main">
+  </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header hdr-modal-color">
+          <h5 class="modal-title" id="exampleModalLabel">Инструкция</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body main-modal-color">
+          <p class="d-block d-md-none">Чтобы заказать пиццу следуйте инструкции: <br> 1) Позвоните на номер <a
+              href="tel:+79090053454"><span>+79090053454</span></a>. <br> 2) Скажите какую пиццу хотите заказать. <br>
+              3) Через 15-20 минут пицца будет готова.</p>
+          <p class="d-none d-md-block">Чтобы заказать пиццу следуйте инструкции: <br> 1) Позвоните на номер
+            <span>+79090053454</span>. <br> 2) Скажите какую пиццу хотите заказать. <br> 3) Через 15-20 минут пицца будет готова.</p>
+        </div>
+        <div class="modal-footer main-modal-color">
+          <button type="button" class="btn btn-color" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header hdr-modal-color">
+          <h5 class="modal-title" id="exampleModalLabel">Инструкция</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body main-modal-color">
+          <p class="d-block d-md-none">Чтобы заказать суши следуйте инструкции: <br> 1) Позвоните на номер <a
+              href="tel:+79090053454"><span>+79090053454</span></a>. <br> 2) Скажите какие суши хотите заказать и в каком количестве. <br>
+              3) Через 15-20 минут суши будут готовы.</p>
+          <p class="d-none d-md-block">Чтобы заказать суши следуйте инструкции: <br> 1) Позвоните на номер <span>+79090053454</span>. <br> 2) Скажите какие суши хотите заказать и в каком количестве. <br>
+              3) Через 15-20 минут суши будут готовы.</p>
+        </div>
+        <div class="modal-footer main-modal-color">
+          <button type="button" class="btn btn-color" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header hdr-modal-color">
+          <h5 class="modal-title" id="exampleModalLabel">Инструкция</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body main-modal-color">
+          <p>Чтобы заказать молочный коктейль приходите к нам в пиццерию.</p>
+        </div>
+        <div class="modal-footer main-modal-color">
+          <button type="button" class="btn btn-color" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header hdr-modal-color">
+          <h5 class="modal-title" id="exampleModalLabel">Инструкция</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body main-modal-color">
+          <p>Чтобы заказать картошку приходите к нам в пиццерию.</p>
+        </div>
+        <div class="modal-footer main-modal-color">
+          <button type="button" class="btn btn-color" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header hdr-modal-color">
+          <h5 class="modal-title" id="exampleModalLabel2">О нас</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body main-modal-color text-center">
+          <div class="row">
+            <div class="col"><h5>Режим работы: <br> Пн-Пт 11-20 <br> Сб-Вс 11-18</h5></div>
+        <div class="col"><h5>Адрес: <br> ул.Амундсена,65  <br> ​г.Екатеринбург, <br> Свердловская область.  <h6>Доставку по городу Екатеринбург осуществляет собственная курьерская служба, вы можете на нас положиться!
+
+    Стоимость доставки заказа до 500 рублей:
+
+    по Екатеринбургу от 200 рублей (в зависимости от района);
+    Стоимость доставки заказа 1000 рублей:
+
+    по Екатеринбургу бесплатно</h6>
+    </h5></div>
+          </div>    
+        </div>
+
+        </div>
+        <div class="modal-footer main-modal-color">
+          <button type="button" class="btn btn-color" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row text-center">
+      <div class="col py-2"><button class="btn btn-color" onclick="showMenu('menu1')">ПИЦЦА</button></div>
+      <div class="col py-2"><button class="btn btn-color" onclick="showMenu('menu2')">СУШИ РОЛЛЫ</button></div>
+      <div class="col py-2"><button class="btn btn-color" onclick="showMenu('menu3')">НАПИТКИ</button></div>
+      <div class="col py-2"><button class="btn btn-color" onclick="showMenu('menu4')">ЗАКУСКИ</button></div>
+      <div class="col py-2"><button class="btn btn-color">&#129530;<span id="total-price">МОЯ КОРЗИНА  </span>₽</button></div>
+      <div class="col py-2"><button class="text-center btn btn-color" type="button" data-toggle="modal" data-target="#exampleModal2">О НАС</button></div>
+    </div>
+  </div>
+
+  <div class="container" id="menu1">
+    <div class="row">
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/1.png" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">МОРСКАЯ</h5>
+            <p class="card-text">соус "Сливочный", филе семги, форель, креветки, помидоры "Черри", сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 500 ГР, <span class="product-price">400</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/2.png" class="card-img-top" alt="example_2">
+          <div class="card-body product-card">
+            <h5 class="card-title">ДАБЛ ТРАБЛ</h5>
+            <p class="card-text">соус "Маринара", ветчина, колбаса "Чоризо", бекон х/к, пепперони, перец халапеньо, сыр
+              "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 550 ГР, <span class="product-price">350</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/3.png" class="card-img-top" alt="example_3">
+          <div class="card-body product-card">
+            <h5 class="card-title">5 СЫРОВ</h5>
+            <p class="card-text">соус "Сливочный", сыр "Гауда", сыр "Маасдам", сыр "Пармезан", сыр "Моцарелла", сыр
+              "Дарблю"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 500 ГР, <span class="product-price">450</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/4.png" class="card-img-top" alt="example_4">
+          <div class="card-body product-card">
+            <h5 class="card-title">ИТАЛЬЯНСКОЕ АССОРТИ</h5>
+            <p class="card-text">соус "Маринара", колбаса пепперони, ветчина, курица х/к, помидоры, шампиньоны, перец
+              болгарский, сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 550 ГР, <span class="product-price">350</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/5.png" class="card-img-top" alt="example_5">
+          <div class="card-body product-card">
+            <h5 class="card-title">ФРАНЦУЗСКАЯ</h5>
+            <p class="card-text">соус "Классический", ветчина, курица х/к, бекон, перец болгарский, сыр "Моцарелла",
+              медово-горчичный соус, зелень руколы</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 550 ГР, <span class="product-price">400</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/6.png" class="card-img-top" alt="example_6">
+          <div class="card-body product-card">
+            <h5 class="card-title">ПИЦЦБУРГЕР</h5>
+            <p class="card-text">соус "Гриль-бургер", курица х/к, перец сладский, болгарский, лук красный, репчатый,
+              колбаса "Чоризо", соус сладкий чили, сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 450 ГР, <span class="product-price">350</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/7.png" class="card-img-top" alt="example_7">
+          <div class="card-body product-card">
+            <h5 class="card-title">ШОКОЛАДНАЯ С БАНАНОМ</h5>
+            <p class="card-text">Ликер фруктовый, банан, топинг шоколадный, сахарная пудра</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 400 ГР, <span class="product-price">350</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/8.png" class="card-img-top" alt="example_8">
+          <div class="card-body product-card">
+            <h5 class="card-title">КУРИЦА ЧЕСНОК</h5>
+            <p class="card-text">соус "Маринара", курица х/к, чеснок, сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 450 ГР, <span class="product-price">350</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/9.png" class="card-img-top" alt="example_9">
+          <div class="card-body product-card">
+            <h5 class="card-title">ГАВАЙСКАЯ</h5>
+            <p class="card-text">соус "Сливочный", ветчина, ананас консервированный, сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 450 ГР, <span class="product-price">350</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/10.png" class="card-img-top" alt="example_10">
+          <div class="card-body product-card">
+            <h5 class="card-title">ЦЕЗАРЬ</h5>
+            <p class="card-text">соус "Цезарь", курица х/к, помидоры черри, салат листовой, сыр "Моцарелла", сыр
+              "Пармезан"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 500 ГР, <span class="product-price">400</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/11.png" class="card-img-top" alt="example_11">
+          <div class="card-body product-card">
+            <h5 class="card-title">БАРБЕКЮ</h5>
+            <p class="card-text">соус "Маринара", сервелат, бекон х/к, помидоры, перец сладкий, лук репчатый красный,
+              соус "Барбекю", сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 500 ГР, <span class="product-price">350</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/12.png" class="card-img-top" alt="example_12">
+          <div class="card-body product-card">
+            <h5 class="card-title">ПО ДОМАШНЕМУ</h5>
+            <p class="card-text">соус "Классический", ветчина, сервелат, пепперони, помидоры, огурцы маринованные, сыр
+              "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 550 ГР, <span class="product-price">400</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/13.png" class="card-img-top" alt="example_13">
+          <div class="card-body product-card">
+            <h5 class="card-title">ГРИБНАЯ</h5>
+            <p class="card-text">соус "Грибной", шампиньоны, сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 450 ГР, <span class="product-price">350</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/14.png" class="card-img-top" alt="example_14">
+          <div class="card-body product-card">
+            <h5 class="card-title">КУРОЧКА ВЕТЧИНА</h5>
+            <p class="card-text">соус "Цезарь", ветчина, курица х/к, сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 500 ГР, <span class="product-price">350</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/15.png" class="card-img-top" alt="example_15">
+          <div class="card-body product-card">
+            <h5 class="card-title">ДЕТСКАЯ</h5>
+            <p class="card-text">соус "Классический", сосиски "Молочные", помидоры, сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 500 ГР, <span class="product-price">300</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/16.png" class="card-img-top" alt="example_16">
+          <div class="card-body product-card">
+            <h5 class="card-title">ВЕТЧИНА, БЕКОН</h5>
+            <p class="card-text">соус "Маринара", ветчина, бекон х/к, сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 550 ГР, <span class="product-price">350</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/17.png" class="card-img-top" alt="example_17">
+          <div class="card-body product-card">
+            <h5 class="card-title">ВЕТЧИНА, СЫР</h5>
+            <p class="card-text">соус "Классический", ветчина, сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 550 ГР, <span class="product-price">350</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/18.png" class="card-img-top" alt="example_18">
+          <div class="card-body product-card">
+            <h5 class="card-title">ТАР-ТАР</h5>
+            <p class="card-text">соус "Тар-Тар", курица х/к, сервелат, помидоры, сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 550 ГР, <span class="product-price">350</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/19.png" class="card-img-top" alt="example_19">
+          <div class="card-body product-card">
+            <h5 class="card-title">ПЕППЕРОНИ</h5>
+            <p class="card-text">соус "Маринара", колбаса "Пепперони", сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 450 ГР, <span class="product-price">350</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/20.png" class="card-img-top" alt="example_20">
+          <div class="card-body product-card">
+            <h5 class="card-title">МЯСНАЯ</h5>
+            <p class="card-text">соус "Классический", курица х/к, ветчина, сервелат, бекон х/к, колбаса "Чоризо",
+              "Пепперони", сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 600 ГР, <span class="product-price">400</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/21.png" class="card-img-top" alt="example_21">
+          <div class="card-body product-card">
+            <h5 class="card-title">NEW-YORK</h5>
+            <p class="card-text">соус "Классический", ветчина, сервелат, шампиньоны, помидоры, сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 550 ГР, <span class="product-price">350</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/22.png" class="card-img-top" alt="example_22">
+          <div class="card-body product-card">
+            <h5 class="card-title">4 СЫРА</h5>
+            <p class="card-text">соус "Сливочный, сыр "Гауда", сыр "Маасдам", сыр "Пармезан", сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 480 ГР, <span class="product-price">400</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/23.png" class="card-img-top" alt="example_23">
+          <div class="card-body product-card">
+            <h5 class="card-title">СЫРНАЯ</h5>
+            <p class="card-text">соус "Сливочный", сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 400 ГР, <span class="product-price">300</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/24.png" class="card-img-top" alt="example_24">
+          <div class="card-body product-card">
+            <h5 class="card-title">ВЕТЧИНА ГРИБЫ</h5>
+            <p class="card-text">соус "Классический", ветчина, грибы шапиньоны, сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 450 ГР, <span class="product-price">350</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/25.png" class="card-img-top" alt="example_25">
+          <div class="card-body product-card">
+            <h5 class="card-title">БЕКОН ЧЕСНОК</h5>
+            <p class="card-text">соус "Классический", бекон х/к, чеснок, сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 450 ГР, <span class="product-price">350</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/26.png" class="card-img-top" alt="example_26">
+          <div class="card-body product-card">
+            <h5 class="card-title">КУРОЧКА ТЕРИЯКИ</h5>
+            <p class="card-text">соус "Классический", курочка х/к, соус "Терияки", сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 500 ГР, <span class="product-price">350</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/27.png" class="card-img-top" alt="example_27">
+          <div class="card-body product-card">
+            <h5 class="card-title">ЖУЛЬЕН</h5>
+            <p class="card-text">соус "Грибной", лук красный, курица х/к, шампиньоны, сыр "Моцарелла"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>28 СМ, 500 ГР, <span class="product-price">400</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="container none" id="menu2">
+    <div class="row">
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/images-1.jpg" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Игай-Маки зелёный</h5>
+            <p class="card-text">сыр, лосось, мясо мидии</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>250 ГР, <span class="product-price">700</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/1024x1024.jpg" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Колизей</h5>
+            <p class="card-text">курица, салат, сыр, помидоры,лимон,икра,рис</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>500 ГР, <span class="product-price">1000</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/0001-filadelfiya-lajt-s-lukom.avif" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Филадельфия лайт с луком</h5>
+            <p class="card-text">
+       Сыр сливочный "Cremette", лосось, лук зеленый, рис, нори.</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>190 г 8 шт.,  <span class="product-price">349</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/0001-oranzh--unagi.avif" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Оранж унаги</h5>
+            <p class="card-text">
+                 Угорь, сыр сливочный "Cremette", апельсин, икра масаго, соус унаги, рис, нори.</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>190 г 8 шт., <span class="product-price">519</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/0001-hrustyashaya-krevetka.avif" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Хрустящая креветка 🌶</h5>
+            <p class="card-text">Креветка панко, сыр сливочный "Cremette", перец халапеньо, лук зеленый, соус спайси, кляр, сухари панко, рис, нори</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>250 г 8 шт., <span class="product-price">369</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/0001--duet-de-lyuks.avif" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Дуэт де люкс 🌶</h5>
+            <p class="card-text">Замес краб-микс, креветка панко, икра масаго, лосось, авокадо, соус сладкий чили, кунжут, рис, нори.</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>240 г 8 шт., <span class="product-price">599</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/0001-maki-syake-zapechennyj.avif" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Сен-Сей запеченный</h5>
+            <p class="card-text">Лосось, замес монако, соус унаги, рис, нори.</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>140 г 8 шт., <span class="product-price">269</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/s2.png" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Калифорния в кунжуте</h5>
+            <p class="card-text">сыр, огурец, лосось.</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>250 г 8 шт., <span class="product-price">430</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/s8.png" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Лава с лососем</h5>
+            <p class="card-text">сыр, огурец, лосось, соус "Лава".</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>250 г 8 шт., <span class="product-price">399</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/s9.png" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Калифорния Лайт</h5>
+            <p class="card-text">сыр, огурец, краб, икра масаго.</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>250 г 8 шт., <span class="product-price">600</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/0001-maki-midii-zapechennyj.avif" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Маки мидии запеченный</h5>
+            <p class="card-text">Мидии, соус яки, соус унаги, рис, нори.</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>140 г 8 шт., <span class="product-price">270</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/0001-maki-ebi-zapechennyj-1.avif" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Маки эби запеченный</h5>
+            <p class="card-text">Креветка, замес монако, соус унаги, рис, нори.</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>140 г 8 шт., <span class="product-price">229</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/0001-maki-krab-zapechennyj.avif" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Маки краб запеченный</h5>
+            <p class="card-text">Замес краб-микс, соус яки, соус унаги, рис, нори.</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>140 г 8 шт., <span class="product-price">300</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/0001-zapechennaya--filadelfiya.avif" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Запеченная филадельфия</h5>
+            <p class="card-text">Лосось, сыр сливочный "Cremette", огурец, соус унаги, рис, нори.</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>260 г 8 шт., <span class="product-price">489</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/0001-losos--king.avif" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Лосось Кинг</h5>
+            <p class="card-text">Лосось, сыр сливочный "Cremette", кунжут, рис, нори.</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>190 г 8 шт., <span class="product-price">579</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/0001--raduga.avif" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Радуга</h5>
+            <p class="card-text">Лосось, тунец, угорь, сыр сливочный "Cremette", огурец, соус унаги, кунжут, рис, нори.</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>250 г 8 шт., <span class="product-price">639</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/0001--drakon.avif" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Дракон</h5>
+            <p class="card-text">Замес краб-микс, угорь, икра масаго, огурец. соус унаги, кунжут, рис, нори.</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>250 г 8 шт., <span class="product-price">559</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/0001-set-filadelfiya-miks.avif" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Сет Филадельфия микс</h5>
+            <p class="card-text">Филадельфия лайт сяке 8шт, Филадельфия Эби в кунжуте 8 шт, Филадельфия классика 8 шт.</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>665 г 24 шт., <span class="product-price">1800</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/0001-set-lyubimof.avif" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Сет Панорама</h5>
+            <p class="card-text">Филадельфия лайт сяке 8 шт, Лава с крабом 8 шт, Калифорния каппа маки в кунжуте 8 шт, Оушен темпура 8 шт.</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>835 г 32 шт., <span class="product-price">1600</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/0003-set-sgoryacha.avif" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Сет Президент</h5>
+            <p class="card-text">Запеченный ролл с острым лососем 8шт, Нежный с лососем запеченный 8шт, Монако запеченный 8шт.</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>720 г 24 шт., <span class="product-price">1049</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/0001-set-usatyj-aristokrat.avif" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Сет Аристократ</h5>
+            <p class="card-text">Канадский 8шт, Филадельфия Эби в кунжуте 8шт, Калифорния каппа маки с икрой 8шт, Токио 8шт, Филадельфия темпура 8шт.</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>1100 г 40 шт., <span class="product-price">2000</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal3">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container none" id="menu3">
+    <div class="row justify-content-center">
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/milkshake.png" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">МОЛОЧНЫЙ КОКТЕЙЛЬ</h5>
+            <p class="card-text text-left"><p>1. Шоколадный</p> <p>2. Клубничный</p><p>3. Банановый</p><p>4. Персик</p><p>5. Кокос</p><p>6. Лесной орех</p><p>7. Солёная карамель</p> <p>8. Грейпфрут "Блю кюрасаа"</p><p>9. Фруктовый сок "Гренадин"</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>300 ГР, <span class="product-price">150</span> РУБЛЕЙ, СИРОПЫ 20 РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal4">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/coffee.png" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">Кофе</h5>
+            <p class="card-text text-left">Эспрессо - 60₽, Двойной Эспрессо - 100₽, Американо - 80₽, Капучино - 100₽, Латте - 100₽</p>
+            <div>
+              <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+              <button onclick="decreaseQuantity(this)" class="plus">-</button>
+              <button onclick="increaseQuantity(this)" class="minus">+</button>
+              <h6>60-<span class="product-price">100</span> РУБЛЕЙ</h6>
+            </div>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal4">Заказать</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container none" id="menu4">
+    <div class="row justify-content-center">
+
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="card text-center card-color">
+          <img src="img/french_fries.png" class="card-img-top" alt="example_1">
+          <div class="card-body product-card">
+            <h5 class="card-title">КАРТОШКА ФРИ</h5>
+            <p class="card-text">Соус сырный 0,40 гр. - 30 рублей <br> Кетчуп барбекю 0,40 гр. - 20 рублей <br> Соус для фри 0,40 гр. - 20 рублей</p>
+            <input class="product-quantity mb-1" type="number" max="256" value="0" min="0" oninput="calculateTotalPrice()">
+        <button onclick="decreaseQuantity(this)" class="plus">-</button>
+        <button onclick="increaseQuantity(this)" class="minus">+</button>
+            <h6>250 ГР, <span class="product-price">150</span> РУБЛЕЙ</h6>
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal5">Заказать</button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/switch.js"></script>
+  <script src="js/dark_time.js"></script>
+  <script src="js/calculator.js"></script>
+</body>
+
+</html>
